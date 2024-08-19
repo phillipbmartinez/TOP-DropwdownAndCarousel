@@ -6,7 +6,6 @@ myButton.addEventListener("click", displayDropdownItems);
 function displayDropdownItems () {
     document.getElementById("myDropdown").classList.toggle("show");
     document.getElementById("arrowImage").src="./images/chevron-up.svg"
-
 }
 
 window.onclick = function (event) {
