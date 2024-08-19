@@ -1,0 +1,23 @@
+body {
+    font-family: sans-serif;
+}
+
+#dropdownButton {
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 15px;
+    font-weight: bold;
+    background-color: lightgray;
+}
+
+#dropdownButton:hover {
+    cursor: pointer;
+    background-color: lightblue;
+}
+
+#arrowDown {
+
+}
