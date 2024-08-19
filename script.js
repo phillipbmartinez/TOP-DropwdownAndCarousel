@@ -4,8 +4,9 @@ const myButton = document.getElementById("myButton");
 myButton.addEventListener("click", displayDropdownItems);
 
 function displayDropdownItems () {
-    console.log("clicked");
     document.getElementById("myDropdown").classList.toggle("show");
+    document.getElementById("arrowImage").src="./images/chevron-up.svg"
+
 }
 
 window.onclick = function (event) {
@@ -15,6 +16,7 @@ window.onclick = function (event) {
             let openDropdown = dropdowns[i];
             if (openDropdown.classList.contains('show')) {
                 openDropdown.classList.remove('show');
+                document.getElementById("arrowImage").src="./images/chevron-down.svg";
             }
         }
     }
