@@ -2,7 +2,7 @@ body {
     font-family: sans-serif;
 }
 
-#dropdownButton {
+.dropbtn {
     display: flex;
     align-items: center;
     column-gap: 5px;
@@ -13,11 +13,18 @@ body {
     background-color: lightgray;
 }
 
-#dropdownButton:hover {
+.dropbtn:hover {
     cursor: pointer;
     background-color: lightblue;
 }
 
-#arrowDown {
+.dropdownContent {
+    display: none;
+    position: absolute;
+}
 
+.show {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
 }
